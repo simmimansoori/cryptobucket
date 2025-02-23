@@ -31,7 +31,7 @@ const SearchInput = ({handleSearch}) => {
 
   return(
     <>
-      <form className='w-96 relative flex items-center mx-7 font-nunito ' onSubmit={handleSubmit}  >
+      <form className='w-50 flex items-center mx-7 md:flex md:flex-col' onSubmit={handleSubmit}  >
       <input onChange={handleInput} className='w-full rounded bg-gray-700 placeholder:text-gray-300 pl-2
       required outline-0 border-transparent border focus:border-cyan-300' placeholder='Search here...' type="text" name='seach' />
       <button type='submit' className='absolute right-1 cursor-pointer'>

@@ -31,14 +31,6 @@ const router = createBrowserRouter([
           }
         ]
       },
-      {
-        path: "/trending", 
-        element: <Trending />
-      },
-      {
-        path: "/saved", 
-        element: <Saved />
-      },
     ]
  
   },

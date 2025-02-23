@@ -15,8 +15,8 @@ const TableComponent = () => {
 
 {
     cryptoData ? 
-    <table  className='w-full table-auto'>
-    <thead className='capitalize text-base text-gray-300 font-medium border-b  border-gray-300'>
+    <table  className='w-full table-auto '>
+    <thead className='capitalize text-base text-gray-300 border-b  border-gray-300'>
         <tr>
              <th className='py-1'>asset</th>
              <th className='py-1'>name</th>
@@ -34,9 +34,9 @@ const TableComponent = () => {
             return (
               <tr
                 key={data.id}
-                className="text-center text-base border-b border-gray-300 hover:bg-gray-700"
+                className="text-center text-base border-b border-gray-300 hover:bg-gray-700 "
               >
-                <td className="py-4 flex items-center uppercase">
+                <td className="py-4 flex items-center uppercase ">
                   <button className="outline-0 border-0 bg-none cursor-pointer">
                     <svg
                       className='w-[1.5rem] ml-1.5 fill-gray-400 hover:fill-cyan-300'

@@ -25,11 +25,10 @@ const Filters = () => {
 
   return (
     <div className='w-full h-12 flex items-center justify-between relative
-    border-2 border-gray-400 rounded-lg'>
+    border-2 border-gray-400 rounded-lg '>
       <Search />
       <div className='flex mr-7'>
-        <form className='relative flex items-center 
-          font-nunito mr-12' onSubmit={handleCurrencySubmit}>
+        <form className='w-80 relative flex items-center font-nunito ' onSubmit={handleCurrencySubmit}>
         <label htmlFor="currency" className=' mr-2 font-bold flex justify-center items-center' >currency</label>
           <input type="text" name='currency' ref = {currencyRef} placeholder='usd' className='w-16 rounded bg-gray-700
           pl-2  required outline-0 border-transparent focus:border-cyan-300 leading-4 ' />
